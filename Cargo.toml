@@ -1,0 +1,15 @@
+[package]
+name = "rsg"
+version = "0.1.0"
+authors = ["Vickenty Fesunov <kent@setattr.net>"]
+license = "GPL-3.0-or-later"
+edition = "2018"
+
+[dependencies]
+syn = { version="1", features = [ "full", "visit" ] }
+quote="1"
+sxd-document="0.3"
+sxd-xpath="0.4"
+clap="2"
+ignore="0.4"
+anyhow="1"
